@@ -1,11 +1,24 @@
 .form-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
 }
 
 .register-form {
   border: 1px solid gray;
   padding: 30px;
 }
+
+.banner{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
